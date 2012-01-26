@@ -1,0 +1,67 @@
+<!DOCTYPE html> 
+<html> 
+	<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<title>jQuery Mobile Docs - Transitions</title> 
+	<link rel="stylesheet"  href="jquery.mobile-1.0.min.css" />  
+	<link rel="stylesheet" href="_assets/css/jqm-docs.css"/>
+	<script src="jquery.js"></script>
+	<script src="experiments/themeswitcher/jquery.mobile.themeswitcher.js"></script>
+	<script src="_assets/js/jqm-docs.js"></script>
+	<script src="jquery.mobile-1.0.min.js"></script>
+</head> 
+<body> 
+
+	<div data-role="page" class="type-interior">
+
+		<div data-role="header" data-theme="f">
+		<h1>Transitions</h1>
+	  </div><!-- /header -->
+
+	<div data-role="content">
+		<div class="content-primary">		
+	
+
+
+<div class="ui-grid-a">
+  <div class="ui-block-a">
+		<a href="#dialog" data-role="button" data-rel="dialog" data-transition="slide">slide</a>
+		<a href="#dialog" data-role="button" data-rel="dialog" data-transition="slideup">slideup</a>
+		<a href="#dialog" data-role="button" data-rel="dialog" data-transition="slidedown">slidedown</a>
+	</div>
+	<div class="ui-block-b">
+	    <a href="#dialog" data-role="button" data-rel="dialog" data-transition="pop">pop</a>
+		<a href="#dialog" data-role="button" data-rel="dialog" data-transition="fade">fade</a>
+		<a href="#dialog" data-role="button" data-rel="dialog" data-transition="flip">flip*</a>
+	</div>
+</div><!-- /grid-a -->
+
+
+</div><!--/content-primary -->		
+
+				
+		
+
+			</div><!-- /page -->
+			
+			
+			
+			
+			
+			<div data-role="page" id="dialog"><!-- dialog-->
+
+				<div data-role="header" data-theme="e">
+					<h1>Ta-da!</h1>
+				</div><!-- /header -->
+
+				<div data-role="content" data-theme="e">
+					<p>That was an animated page transition effect that we added with a <code>data-transition</code> attribute on the link.</p>
+					<p>Since it uses CSS transforms, this should be hardware accelerated on many mobile devices.</p>
+					<p>What do you think?</p>
+					<a href="docs-transitions.html" data-role="button" data-theme="b" data-rel="back">I like it</a>   
+				</div>
+			</div>
+
+			</body>
+			</html>
